@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de atividade</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/main.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +16,7 @@
         <div class="container">
             <h1>Sah fotografias</h1>
             <nav>
-                <ul>
+                <ul class="navegacao">
                     <li>
                         <a href="#Sobre"> Sobre as fotos</a>
                     </li>
@@ -28,31 +29,36 @@
     </header>
     <section id="Sobre">
         <div class="main">
-            <img class="main" src="./imagem/sah.jpeg" alt="fotografa"/>
-            <div>
-                <h2>Informações sobre as fotos</h2>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium minima aperiam accusantium nam, quos maiores fugit rem qui ut nulla necessitatibus sapiente impedit quas quam ea dolores exercitationem distinctio at!
-                </p>
-                <li><img src="./imagem/dia das mães.jpeg" alt="Surpresa no dia das mães"></li>
-                <h2>Detalhes sobre pagamento</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id in porro, voluptatibus, ducimus, suscipit voluptate officia perferendis sapiente nobis dolores cupiditate quo hic quae sit distinctio nesciunt doloribus. Explicabo, voluptas?
-                </p>
-                <ul class="outono"></ul>
-                <li><img src="./imagem/outono.jpeg" alt="Ensaio de outono"></li>
-            </div>
+            <img src="src/imagem/sah.jpeg" alt="fotografa"/>
+        </div>
+        <div class="informacoes">
+            <h2>Informações sobre as fotos</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium minima aperiam accusantium nam, quos maiores fugit rem qui ut nulla necessitatibus sapiente impedit quas quam ea dolores exercitationem distinctio at!
+            </p>
+        </div>
+        <div class="main">
+            <img src="src/imagem/dia das mães.jpeg" alt="Surpresa no dia das mães">
+        </div>
+        <div class="informacoes">
+            <h2>Detalhes sobre pagamento</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id in porro, voluptatibus, ducimus, suscipit voluptate officia perferendis sapiente nobis dolores cupiditate quo hic quae sit distinctio nesciunt doloribus. Explicabo, voluptas?
+            </p>
+        </div>
+        <div class="main">
+            <img src="src/imagem/outono.jpeg" alt="Ensaio de outono">
         </div>
     </section>
     <section id="Contato">
         <div class="container">
             <div class="contact-metodes">
-                <div>
+                <div class="informacoes">
                     <h3>Fale conosco</h3>
                     <a href="#" title="Entre em contato no whatsapp">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png" alt="whatsapp">
                         <a href="#" title="Siga-nos no facebook">
-                            <img src="./imagem/facebook.png" alt="logo do facebook" />
+                            <img src="src/imagem/facebook.png" alt="logo do facebook" />
                         </a>
                     </a>
                 </div>
@@ -61,17 +67,17 @@
     </section>
     <section>
         <div class="container">
-            <div>
+            <div class="informacoes">
                 <h3>Nos acompanhe</h3>
                 <ul class="social-links">
                     <li>
                         <a href="#" title="Siga-nos no instagram">
-                            <img src="./imagem/instagram.png" alt="logo do instagram" />
+                            <img src="src/imagem/instagram.png" alt="logo do instagram" />
                         </a>
                     </li>
                     <li>
                         <a href="#" title="Siga-nos no facebook">
-                            <img src="./imagem/facebook.png" alt="logo do facebook" />
+                            <img src="src/imagem/facebook.png" alt="logo do facebook" />
                         </a>
                     </li>
                 </ul>

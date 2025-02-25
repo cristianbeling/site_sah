@@ -1,0 +1,83 @@
+
+html {
+    font-family: 'Bungee', 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #ec78e785;
+}
+
+header{
+    padding: 16px 0;
+    background-color: #d10cc785;
+    color: #ecf0f1
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacao li {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.informacoes {
+    color: #d10cc785;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10rem;
+}
+
+.informacoes h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.informacoes p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links img,
+.contact-metodes img {
+    height: 36px;
+}
+
+.contact-metodes img{
+    margin-left: 8px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+#contact .container{
+    display: block;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
